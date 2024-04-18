@@ -1,24 +1,5 @@
-#include <iostream>
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
-#include <sstream>
-#include <fstream>
-#include <thread>
-
-// macro pour la gestion des erreurs
-#define ASSERT(x) glClearErrors(); x; if(unsigned int error = glGetError()) { glErrorLog(error, #x, __FILE__, __LINE__); std::cin.get(); __debugbreak();}
-
-// _________debuging fonctions_________
-
-// afficher l'erreur
-void glErrorLog(unsigned int error, const char* function, const char* file, int line){
-    std::cout << "code d'erreur [" << error << "] de la fonction [" << function << "] dans le fichier [" << file << "] a la ligne [" << line << "]" << "\n";
-}
-// s'occuper des erreurs precédentes
-void glClearErrors(){
-    while(glGetError() != GL_NO_ERROR); // faire tourner la boucle jusqu'à ce que glGetError renvoie 0
-}
-// _________code__________
+#include "vertex-buffer.h"
+#include "index-buffer.h"
 
 struct Shaders{
     std::string vertex_shader_source;
@@ -39,7 +20,6 @@ Shaders load_shader(std::string filepath){
     }
     while(getline(stream, line)){
         // donc le fichier doit forcement commencer par shader sinon ça bug
-        std::cout << line << "\n";
         if(line.find("#shader") != std::string::npos){
             if(line.find("vertex") != std::string::npos){
                 type = shader_type::VERTEX;
@@ -119,12 +99,8 @@ int main()
         0, 1, 2, // first triangle
         1, 2, 3 // second triangle
     };
-
-    // managing the buffer
-    unsigned int buffer;
-    glGenBuffers(1, &buffer);
-    glBindBuffer(GL_ARRAY_BUFFER, buffer);
-    glBufferData(GL_ARRAY_BUFFER, 8 * sizeof(float), positions, GL_STATIC_DRAW);
+    //class
+    ASSERT(VertexBuffer vertex_buffer(positions, 8 * sizeof(float)));
 
     // defining how to interpret the buffer
     unsigned int vertex_array;
@@ -133,12 +109,9 @@ int main()
     ASSERT(glEnableVertexAttribArray(0));
     ASSERT(glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2*sizeof(float), 0));
 
-    // managing the index buffer
-    unsigned int index_buffer;
-    glGenBuffers(1, &index_buffer);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, index_buffer);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6 * sizeof(unsigned int), indices, GL_STATIC_DRAW);
-
+    // class
+    ASSERT(IndexBuffer index_buffer(indices, 6));
+    
     // creating a shader and use it in the code
     Shaders source = load_shader("../src/shader/basic-shader.shader");
     std::cout << "FRAGMENT SHADER" << "\n";
@@ -153,8 +126,6 @@ int main()
     glUniform4f(location, 0.2f, 0.3f, 0.5f, 1.0f); // modifier l'uniform
     float r = 0.0f;
     float increment = 0.05f;
-
-    glBindBuffer(GL_ARRAY_BUFFER, 0); // unbind the buffer to prove we don't need it once we set the vertex array
 
     while(!glfwWindowShouldClose(window))
     {

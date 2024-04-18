@@ -1,6 +1,5 @@
-CMakeFiles/Prog.dir/src/main.cpp.obj: \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/main.cpp \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/vertex-buffer.h \
+CMakeFiles/Prog.dir/src/renderer.cpp.obj: \
+ D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/renderer.cpp \
  D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/renderer.h \
  C:/MinGW/mingw64/include/c++/13.2.0/iostream \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
@@ -169,5 +168,4 @@ CMakeFiles/Prog.dir/src/main.cpp.obj: \
  C:/MinGW/mingw64/include/c++/13.2.0/cstdint \
  C:/MinGW/mingw64/include/c++/13.2.0/limits \
  C:/MinGW/mingw64/include/c++/13.2.0/ctime \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/parse_numbers.h \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/index-buffer.h
+ C:/MinGW/mingw64/include/c++/13.2.0/bits/parse_numbers.h

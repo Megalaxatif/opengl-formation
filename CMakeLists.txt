@@ -1,11 +1,13 @@
 cmake_minimum_required(VERSION 3.27)
 
+set(EXEC_NAME "Prog")
+
 project(formation-openGL)
 
-add_executable(Prog src/main.cpp src/glad.c)
+add_executable(${EXEC_NAME} src/main.cpp src/glad.c src/vertex-buffer.cpp src/index-buffer.cpp src/renderer.cpp)
 
-target_include_directories(Prog PUBLIC include)
+target_include_directories(${EXEC_NAME} PUBLIC include)
 
-target_link_directories(Prog PRIVATE lib)
+target_link_directories(${EXEC_NAME} PRIVATE lib)
 
-target_link_libraries(Prog glfw3)
+target_link_libraries(${EXEC_NAME} glfw3)

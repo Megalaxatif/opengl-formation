@@ -1,5 +1,5 @@
-CMakeFiles/Prog.dir/src/main.cpp.obj: \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/main.cpp \
+CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: \
+ D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/vertex-buffer.cpp \
  D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/vertex-buffer.h \
  D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/renderer.h \
  C:/MinGW/mingw64/include/c++/13.2.0/iostream \
@@ -169,5 +169,4 @@ CMakeFiles/Prog.dir/src/main.cpp.obj: \
  C:/MinGW/mingw64/include/c++/13.2.0/cstdint \
  C:/MinGW/mingw64/include/c++/13.2.0/limits \
  C:/MinGW/mingw64/include/c++/13.2.0/ctime \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/parse_numbers.h \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/index-buffer.h
+ C:/MinGW/mingw64/include/c++/13.2.0/bits/parse_numbers.h

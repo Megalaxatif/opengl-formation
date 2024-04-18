@@ -153,6 +153,30 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
+src/index-buffer.obj: src/index-buffer.cpp.obj
+.PHONY : src/index-buffer.obj
+
+# target to build an object file
+src/index-buffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/index-buffer.cpp.obj
+.PHONY : src/index-buffer.cpp.obj
+
+src/index-buffer.i: src/index-buffer.cpp.i
+.PHONY : src/index-buffer.i
+
+# target to preprocess a source file
+src/index-buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/index-buffer.cpp.i
+.PHONY : src/index-buffer.cpp.i
+
+src/index-buffer.s: src/index-buffer.cpp.s
+.PHONY : src/index-buffer.s
+
+# target to generate assembly for a file
+src/index-buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/index-buffer.cpp.s
+.PHONY : src/index-buffer.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -177,6 +201,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/renderer.obj: src/renderer.cpp.obj
+.PHONY : src/renderer.obj
+
+# target to build an object file
+src/renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/renderer.cpp.obj
+.PHONY : src/renderer.cpp.obj
+
+src/renderer.i: src/renderer.cpp.i
+.PHONY : src/renderer.i
+
+# target to preprocess a source file
+src/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/renderer.cpp.i
+.PHONY : src/renderer.cpp.i
+
+src/renderer.s: src/renderer.cpp.s
+.PHONY : src/renderer.s
+
+# target to generate assembly for a file
+src/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/renderer.cpp.s
+.PHONY : src/renderer.cpp.s
+
+src/vertex-buffer.obj: src/vertex-buffer.cpp.obj
+.PHONY : src/vertex-buffer.obj
+
+# target to build an object file
+src/vertex-buffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj
+.PHONY : src/vertex-buffer.cpp.obj
+
+src/vertex-buffer.i: src/vertex-buffer.cpp.i
+.PHONY : src/vertex-buffer.i
+
+# target to preprocess a source file
+src/vertex-buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/vertex-buffer.cpp.i
+.PHONY : src/vertex-buffer.cpp.i
+
+src/vertex-buffer.s: src/vertex-buffer.cpp.s
+.PHONY : src/vertex-buffer.s
+
+# target to generate assembly for a file
+src/vertex-buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/vertex-buffer.cpp.s
+.PHONY : src/vertex-buffer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +261,18 @@ help:
 	@echo "... src/glad.obj"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
+	@echo "... src/index-buffer.obj"
+	@echo "... src/index-buffer.i"
+	@echo "... src/index-buffer.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/renderer.obj"
+	@echo "... src/renderer.i"
+	@echo "... src/renderer.s"
+	@echo "... src/vertex-buffer.obj"
+	@echo "... src/vertex-buffer.i"
+	@echo "... src/vertex-buffer.s"
 .PHONY : help
 
 
