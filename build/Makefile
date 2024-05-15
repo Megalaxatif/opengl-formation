@@ -57,10 +57,10 @@ RM = C:/MinGW/mingw64/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL
+CMAKE_SOURCE_DIR = D:/Ethan/Projets/Code/formation-OpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/build
+CMAKE_BINARY_DIR = D:/Ethan/Projets/Code/formation-OpenGL/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/build/CMakeFiles D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles D:/Ethan/Projets/Code/formation-OpenGL/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -225,6 +225,54 @@ src/renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/renderer.cpp.s
 .PHONY : src/renderer.cpp.s
 
+src/shader.obj: src/shader.cpp.obj
+.PHONY : src/shader.obj
+
+# target to build an object file
+src/shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/shader.cpp.obj
+.PHONY : src/shader.cpp.obj
+
+src/shader.i: src/shader.cpp.i
+.PHONY : src/shader.i
+
+# target to preprocess a source file
+src/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/shader.cpp.i
+.PHONY : src/shader.cpp.i
+
+src/shader.s: src/shader.cpp.s
+.PHONY : src/shader.s
+
+# target to generate assembly for a file
+src/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/shader.cpp.s
+.PHONY : src/shader.cpp.s
+
+src/vertex-array.obj: src/vertex-array.cpp.obj
+.PHONY : src/vertex-array.obj
+
+# target to build an object file
+src/vertex-array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/vertex-array.cpp.obj
+.PHONY : src/vertex-array.cpp.obj
+
+src/vertex-array.i: src/vertex-array.cpp.i
+.PHONY : src/vertex-array.i
+
+# target to preprocess a source file
+src/vertex-array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/vertex-array.cpp.i
+.PHONY : src/vertex-array.cpp.i
+
+src/vertex-array.s: src/vertex-array.cpp.s
+.PHONY : src/vertex-array.s
+
+# target to generate assembly for a file
+src/vertex-array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/vertex-array.cpp.s
+.PHONY : src/vertex-array.cpp.s
+
 src/vertex-buffer.obj: src/vertex-buffer.cpp.obj
 .PHONY : src/vertex-buffer.obj
 
@@ -270,6 +318,12 @@ help:
 	@echo "... src/renderer.obj"
 	@echo "... src/renderer.i"
 	@echo "... src/renderer.s"
+	@echo "... src/shader.obj"
+	@echo "... src/shader.i"
+	@echo "... src/shader.s"
+	@echo "... src/vertex-array.obj"
+	@echo "... src/vertex-array.i"
+	@echo "... src/vertex-array.s"
 	@echo "... src/vertex-buffer.obj"
 	@echo "... src/vertex-buffer.i"
 	@echo "... src/vertex-buffer.s"

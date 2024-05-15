@@ -1,4 +1,6 @@
+#include <iostream>
 #include "vertex-buffer.h"
+#include "renderer.h"
 
 VertexBuffer::VertexBuffer(const void* data, unsigned int size){
     ASSERT(glGenBuffers(1, &buffer_id));

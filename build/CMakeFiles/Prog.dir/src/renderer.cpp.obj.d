@@ -1,6 +1,5 @@
 CMakeFiles/Prog.dir/src/renderer.cpp.obj: \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/renderer.cpp \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/renderer.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/renderer.cpp \
  C:/MinGW/mingw64/include/c++/13.2.0/iostream \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/MinGW/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -149,23 +148,10 @@ CMakeFiles/Prog.dir/src/renderer.cpp.obj: \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/ostream.tcc \
  C:/MinGW/mingw64/include/c++/13.2.0/istream \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/istream.tcc \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/include/glad/glad.h \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/include/KHR/khrplatform.h \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/include/GLFW/glfw3.h \
- C:/MinGW/mingw64/include/c++/13.2.0/sstream \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/sstream.tcc \
- C:/MinGW/mingw64/include/c++/13.2.0/fstream \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/codecvt.h \
- C:/MinGW/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
- C:/MinGW/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/fstream.tcc \
- C:/MinGW/mingw64/include/c++/13.2.0/thread \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/std_thread.h \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/unique_ptr.h \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/this_thread_sleep.h \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/chrono.h \
- C:/MinGW/mingw64/include/c++/13.2.0/ratio \
- C:/MinGW/mingw64/include/c++/13.2.0/cstdint \
- C:/MinGW/mingw64/include/c++/13.2.0/limits \
- C:/MinGW/mingw64/include/c++/13.2.0/ctime \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/parse_numbers.h
+ D:/Ethan/Projets/Code/formation-OpenGL/src/renderer.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glad/glad.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/KHR/khrplatform.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/GLFW/glfw3.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/shader.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/index-buffer.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.h

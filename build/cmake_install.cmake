@@ -1,8 +1,8 @@
-# Install script for directory: D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL
+# Install script for directory: D:/Ethan/Projets/Code/formation-OpenGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/formation")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/formation-openGL")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Ethan/Projets/Code/formation-OpenGL/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

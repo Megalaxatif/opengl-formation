@@ -1,1 +1,1 @@
-  -L"D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/lib"  -lglfw3 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -L"D:/Ethan/Projets/Code/formation-OpenGL/lib"  -lglfw3 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

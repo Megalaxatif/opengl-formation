@@ -29,7 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/MinGW/mingw64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake"
   "C:/MinGW/mingw64/share/cmake-3.27/Modules/Platform/Windows.cmake"
   "C:/MinGW/mingw64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake"
-  "D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/CMakeLists.txt"
+  "D:/Ethan/Projets/Code/formation-OpenGL/CMakeLists.txt"
   "CMakeFiles/3.27.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.2/CMakeRCCompiler.cmake"

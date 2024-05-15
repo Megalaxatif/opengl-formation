@@ -1,5 +1,5 @@
 CMakeFiles/Prog.dir/src/glad.c.obj: \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/src/glad.c \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c \
  C:/MinGW/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/MinGW/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/MinGW/mingw64/x86_64-w64-mingw32/include/corecrt.h \
@@ -23,8 +23,8 @@ CMakeFiles/Prog.dir/src/glad.c.obj: \
  C:/MinGW/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/MinGW/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/MinGW/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/include/glad/glad.h \
- D:/Ethan/Projets/VisualStudioCodeProjects/formation-OpenGL/include/KHR/khrplatform.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glad/glad.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/KHR/khrplatform.h \
  C:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  C:/MinGW/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \

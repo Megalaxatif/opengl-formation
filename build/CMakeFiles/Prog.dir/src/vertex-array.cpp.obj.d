@@ -1,5 +1,5 @@
-CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: \
- D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp \
+CMakeFiles/Prog.dir/src/vertex-array.cpp.obj: \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp \
  C:/MinGW/mingw64/include/c++/13.2.0/iostream \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/MinGW/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -148,11 +148,10 @@ CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/ostream.tcc \
  C:/MinGW/mingw64/include/c++/13.2.0/istream \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/istream.tcc \
- D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.h \
  D:/Ethan/Projets/Code/formation-OpenGL/src/renderer.h \
  D:/Ethan/Projets/Code/formation-OpenGL/include/glad/glad.h \
  D:/Ethan/Projets/Code/formation-OpenGL/include/KHR/khrplatform.h \
  D:/Ethan/Projets/Code/formation-OpenGL/include/GLFW/glfw3.h \
  D:/Ethan/Projets/Code/formation-OpenGL/src/shader.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/index-buffer.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.h
+ D:/Ethan/Projets/Code/formation-OpenGL/src/index-buffer.h

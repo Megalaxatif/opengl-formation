@@ -4,7 +4,7 @@ set(EXEC_NAME "Prog")
 
 project(formation-openGL)
 
-add_executable(${EXEC_NAME} src/main.cpp src/glad.c src/vertex-buffer.cpp src/index-buffer.cpp src/renderer.cpp)
+add_executable(${EXEC_NAME} src/main.cpp src/glad.c src/vertex-buffer.cpp src/vertex-array.cpp src/index-buffer.cpp src/renderer.cpp src/shader.cpp)
 
 target_include_directories(${EXEC_NAME} PUBLIC include)
 
