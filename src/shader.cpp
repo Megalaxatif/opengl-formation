@@ -1,7 +1,8 @@
-#include "shader.h"
+#include <shader.h>
 #include <iostream>
 #include <sstream>
 #include <fstream>
+#include <renderer.h>
 
 Shader::Shader(std::string path){
     Shaders shader_source = loadShader(path);
@@ -23,9 +24,15 @@ unsigned int Shader::getShaderId(){
     return shader_id;
 }
 void Shader::setUniform4f(const char* name, float f1, float f2, float f3, float f4){
-    int location = glGetUniformLocation(shader_id, name); // store in <location> the adress of the u_color uniform
+    ASSERT(int location = glGetUniformLocation(shader_id, name)); // store in <location> the adress of the u_color uniform
     if (location == -1) std::cerr << "erreur avec l'uniform a la ligne: " << __LINE__ -1 << "\n"; // debugging, location = -1 if it doesn't find the uniform
-    glUniform4f(location, f1, f2, f3, f4); // modify the uniform
+    ASSERT(glUniform4f(location, f1, f2, f3, f4)); // modify the uniform
+}
+
+void Shader::setUniform1i(const char* name, int i1){
+    ASSERT(int location = glGetUniformLocation(shader_id, name)); // store in <location> the adress of the u_color uniform
+    if (location == -1) std::cerr << "erreur avec l'uniform a la ligne: " << __LINE__ -1 << "\n"; // debugging, location = -1 if it doesn't find the uniform
+    ASSERT(glUniform1i(location, i1)); // modify the uniform
 }
 
 Shaders Shader::loadShader(std::string filepath){

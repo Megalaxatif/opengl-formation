@@ -148,11 +148,11 @@ CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/ostream.tcc \
  C:/MinGW/mingw64/include/c++/13.2.0/istream \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/istream.tcc \
- D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/renderer.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/header/vertex-buffer.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/header/renderer.h \
  D:/Ethan/Projets/Code/formation-OpenGL/include/glad/glad.h \
  D:/Ethan/Projets/Code/formation-OpenGL/include/KHR/khrplatform.h \
  D:/Ethan/Projets/Code/formation-OpenGL/include/GLFW/glfw3.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/shader.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/index-buffer.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.h
+ D:/Ethan/Projets/Code/formation-OpenGL/src/header/shader.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/header/index-buffer.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/header/vertex-array.h

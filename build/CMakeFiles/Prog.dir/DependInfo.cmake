@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp" "CMakeFiles/Prog.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/main.cpp.obj.d"
   "D:/Ethan/Projets/Code/formation-OpenGL/src/renderer.cpp" "CMakeFiles/Prog.dir/src/renderer.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/renderer.cpp.obj.d"
   "D:/Ethan/Projets/Code/formation-OpenGL/src/shader.cpp" "CMakeFiles/Prog.dir/src/shader.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/shader.cpp.obj.d"
+  "D:/Ethan/Projets/Code/formation-OpenGL/src/texture.cpp" "CMakeFiles/Prog.dir/src/texture.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/texture.cpp.obj.d"
   "D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp" "CMakeFiles/Prog.dir/src/vertex-array.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/vertex-array.cpp.obj.d"
   "D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp" "CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj.d"
   )

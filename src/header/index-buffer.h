@@ -9,5 +9,5 @@ class IndexBuffer{
         ~IndexBuffer();
         void bind();
         void unbind();
-        unsigned int get_ib_size();
+        inline unsigned int get_ib_size() {return buffer_length;}
 };

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "vertex-array.h"
-#include "renderer.h"
+#include <vertex-array.h>
+#include <renderer.h>
 
 VertexArray::VertexArray(unsigned int size, unsigned int stride){
     // defining how to interpret the index buffer
@@ -8,6 +8,7 @@ VertexArray::VertexArray(unsigned int size, unsigned int stride){
     ASSERT(glBindVertexArray(vertex_array_id));
     ASSERT(glEnableVertexAttribArray(0));
     ASSERT(glVertexAttribPointer(0, size, GL_FLOAT, GL_FALSE, stride*sizeof(float), 0));
+    //ASSERT(glBindVertexArray(0));
 }
 
 VertexArray::~VertexArray(){

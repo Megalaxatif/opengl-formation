@@ -1,7 +1,7 @@
-#include "renderer.h"
-#include "vertex-buffer.h"
+#include <renderer.h>
+#include <vertex-buffer.h>
+#include <texture.h>
 #include <thread>
-#include <iostream>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
@@ -28,10 +28,10 @@ int main()
 
     // position array
     float positions[]{
-        -0.5f, 0.0f, // 0
-        -0.5f, 0.5f, // 1
-         0.0f, 0.0f, // 2
-         0.0f, 0.5f  // 3
+        -0.5f, -0.5f, 0.0f, 0.0f, // 0
+         0.5f, -0.5f, 1.0f, 0.0f,// 1
+         0.5f,  0.5f, 1.0f, 1.0f, // 2
+        -0.5f,  0.5f, 0.0f, 1.0f  // 3
     };
     unsigned int indices[]{
         0, 1, 2, // first triangle
@@ -39,10 +39,14 @@ int main()
     };
 
     // abstracting opengl into classes
-    ASSERT(VertexBuffer vertex_buffer(positions, 8 * sizeof(float)));
-    ASSERT(VertexArray vertex_array(2, 2));
+    ASSERT(VertexBuffer vertex_buffer(positions, 8 * 2 * sizeof(float)));
+    ASSERT(VertexArray vertex_array(2, 4));
     ASSERT(IndexBuffer index_buffer(indices, 6));
     ASSERT(Shader shader1("../src/shader/basic-shader.shader"));
+    ASSERT(Texture texture("ressource/PP discord.jpg"));
+    texture.bind(0); // bind the texture on the first location
+    shader1.bind();
+    ASSERT(shader1.setUniform1i("u_texture", 0)); // we set the uniform on 0 because it's the position of the texture in opengl
     ASSERT(Renderer renderer); // we create the renderer
 
     float r = 0.0f;
@@ -51,7 +55,7 @@ int main()
     while(!glfwWindowShouldClose(window)){
 
         renderer.clear(); // clear the window
-        shader1.setUniform4f("u_color", r, 0.4f, 0.8f, 1.0f); // modify the uniform at each loop
+        //shader1.setUniform4f("u_color", r, 0.4f, 0.8f, 1.0f); // modify the uniform at each loop
         renderer.draw(vertex_array, index_buffer, shader1);
 
         if (r > 1.0f) increment = -0.05f;

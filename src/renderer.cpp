@@ -1,5 +1,4 @@
-#include <iostream>
-#include "renderer.h"
+#include <renderer.h>
 
 void glErrorLog(unsigned int error, const char* function, const char* file, int line){
     std::cout << "error code [" << error << "] of the function [" << function << "] in the file [" << file << "] at line [" << line << "]" << "\n";

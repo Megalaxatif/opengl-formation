@@ -249,6 +249,30 @@ src/shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/shader.cpp.s
 .PHONY : src/shader.cpp.s
 
+src/texture.obj: src/texture.cpp.obj
+.PHONY : src/texture.obj
+
+# target to build an object file
+src/texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/texture.cpp.obj
+.PHONY : src/texture.cpp.obj
+
+src/texture.i: src/texture.cpp.i
+.PHONY : src/texture.i
+
+# target to preprocess a source file
+src/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/texture.cpp.i
+.PHONY : src/texture.cpp.i
+
+src/texture.s: src/texture.cpp.s
+.PHONY : src/texture.s
+
+# target to generate assembly for a file
+src/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/texture.cpp.s
+.PHONY : src/texture.cpp.s
+
 src/vertex-array.obj: src/vertex-array.cpp.obj
 .PHONY : src/vertex-array.obj
 
@@ -321,6 +345,9 @@ help:
 	@echo "... src/shader.obj"
 	@echo "... src/shader.i"
 	@echo "... src/shader.s"
+	@echo "... src/texture.obj"
+	@echo "... src/texture.i"
+	@echo "... src/texture.s"
 	@echo "... src/vertex-array.obj"
 	@echo "... src/vertex-array.i"
 	@echo "... src/vertex-array.s"
