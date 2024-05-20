@@ -2,6 +2,7 @@
 #include <iostream>
 #include <sstream>
 #include <fstream>
+#include <vector>
 #include <renderer.h>
 
 Shader::Shader(std::string path){
@@ -24,14 +25,26 @@ unsigned int Shader::getShaderId(){
     return shader_id;
 }
 void Shader::setUniform4f(const char* name, float f1, float f2, float f3, float f4){
+    //check if the program id we are currently using is the same as the shader id 
+    int program_id = 0;
+    glGetIntegerv(GL_CURRENT_PROGRAM, &program_id);
+    if (program_id != shader_id){
+        glUseProgram(shader_id); // we use this shader if it wasn't the already the case
+    }
     ASSERT(int location = glGetUniformLocation(shader_id, name)); // store in <location> the adress of the u_color uniform
-    if (location == -1) std::cerr << "erreur avec l'uniform a la ligne: " << __LINE__ -1 << "\n"; // debugging, location = -1 if it doesn't find the uniform
+    if (location == -1) std::cerr << "\n" << "erreur avec l'uniform a la ligne: " << __LINE__ -1; // debugging, location = -1 if it doesn't find the uniform
     ASSERT(glUniform4f(location, f1, f2, f3, f4)); // modify the uniform
 }
 
 void Shader::setUniform1i(const char* name, int i1){
+    //check if the program id we are currently using is the same as the shader id 
+    int program_id = 0;
+    glGetIntegerv(GL_CURRENT_PROGRAM, &program_id);
+    if (program_id != shader_id){
+        glUseProgram(shader_id); // we use this shader if it wasn't the already the case
+    }
     ASSERT(int location = glGetUniformLocation(shader_id, name)); // store in <location> the adress of the u_color uniform
-    if (location == -1) std::cerr << "erreur avec l'uniform a la ligne: " << __LINE__ -1 << "\n"; // debugging, location = -1 if it doesn't find the uniform
+    if (location == -1) std::cerr << "\n" << "erreur avec l'uniform a la ligne: " << __LINE__ -1 << "\n"; // debugging, location = -1 if it doesn't find the uniform
     ASSERT(glUniform1i(location, i1)); // modify the uniform
 }
 
@@ -63,10 +76,31 @@ Shaders Shader::loadShader(std::string filepath){
 unsigned int Shader::compileShader(unsigned int type, const std::string& source){
     unsigned int id = glCreateShader(type);
     const char* src = &source[0]; // convert std::string to const char (C type)
-    glShaderSource(id, 1, &src, nullptr); // object file
-    glCompileShader(id); // final compilation
+    ASSERT(glShaderSource(id, 1, &src, nullptr)); // object file
+    ASSERT(glCompileShader(id)); // final compilation
 
-    // TODO: error handling but I'm lazy so maybe later :)
+    //error handling
+    //GLint is_compiled = 0;
+    //glGetShaderiv(shader_id, GL_COMPILE_STATUS, &is_compiled);
+/*
+    if(is_compiled == GL_FALSE){
+        // If compilation failed, find out why and log the error
+        GLint max_length = 0;
+        glGetShaderiv(shader_id, GL_INFO_LOG_LENGTH, &max_length); // get the length of the error message
+
+        if (max_length > 0){
+            std::vector<GLchar> info_log(max_length); // allocate enought memory to store the error message
+            glGetShaderInfoLog(shader_id, max_length, &max_length, info_log.data()); // store the error message
+
+            std::cerr << "Shader compilation failed with error:" << "\n" << info_log.data();
+        }
+        else {
+            std::cerr << "Shader compilation failed with an unknown error." << std::endl;
+        }
+    //delete the shader if compilation failed
+    glDeleteShader(shader_id);
+    }
+    */
     return id;
 }
 

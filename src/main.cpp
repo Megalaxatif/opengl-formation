@@ -25,6 +25,9 @@ int main()
     glViewport(0, 0, 800, 600);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);  // I don't know what it is
     std::cout << glGetString(GL_VERSION) << std::endl; // opengl version
+    std::cout << glGetString(GL_SHADING_LANGUAGE_VERSION); // glsl version
+    GLint maxVertexAttribs;
+    glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &maxVertexAttribs);
 
     // position array
     float positions[]{
@@ -35,17 +38,17 @@ int main()
     };
     unsigned int indices[]{
         0, 1, 2, // first triangle
-        1, 2, 3 // second triangle
+        0, 2, 3 // second triangle
     };
 
     // abstracting opengl into classes
     ASSERT(VertexBuffer vertex_buffer(positions, 8 * 2 * sizeof(float)));
-    ASSERT(VertexArray vertex_array(2, 4));
+    ASSERT(VertexArray vertex_array(vertex_buffer.get_id(), 2, 4));
     ASSERT(IndexBuffer index_buffer(indices, 6));
     ASSERT(Shader shader1("../src/shader/basic-shader.shader"));
-    ASSERT(Texture texture("ressource/PP discord.jpg"));
+    ASSERT(shader1.bind());
+    ASSERT(Texture texture("../ressource/gigachad.jpg"));
     texture.bind(0); // bind the texture on the first location
-    shader1.bind();
     ASSERT(shader1.setUniform1i("u_texture", 0)); // we set the uniform on 0 because it's the position of the texture in opengl
     ASSERT(Renderer renderer); // we create the renderer
 

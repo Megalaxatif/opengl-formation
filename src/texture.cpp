@@ -7,18 +7,23 @@ Texture::Texture(const std::string path)
 {
     stbi_set_flip_vertically_on_load(1); // flip the image because it may be load upside down
     local_buffer = stbi_load(path.c_str(), &width, &height, &bitPerPixel, 4);
+    // debuging
+    if (local_buffer == nullptr){
+        std::cerr << "\n" << "unable to load the texture at " << path << ": " << stbi_failure_reason();
+    }
+    else {
+        ASSERT(glGenTextures(1, &texture_id));
+        ASSERT(glBindTexture(GL_TEXTURE_2D, texture_id));
 
-    ASSERT(glGenTextures(1, &texture_id));
-    ASSERT(glBindTexture(GL_TEXTURE_2D, texture_id));
+        ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR));
+        ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR));
+        ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE));
+        ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE));
 
-    ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR));
-    ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR));
-    ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE));
-    ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE));
-
-    ASSERT(glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, local_buffer));
-    ASSERT(glBindTexture(GL_TEXTURE_2D, 0)); // unbind the texture because we don't work on it anymore
-    stbi_image_free(local_buffer); // free the local buffer because it is already linked with the texture
+        ASSERT(glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, local_buffer)); // load data in the texture
+        ASSERT(glBindTexture(GL_TEXTURE_2D, 0)); // unbind the texture because we don't work on it anymore
+        stbi_image_free(local_buffer); // free the local buffer because it is already linked with the texture
+    }
 }
 
 Texture::~Texture(){
