@@ -14,7 +14,8 @@ Texture::Texture(const std::string path)
     else {
         ASSERT(glGenTextures(1, &texture_id));
         ASSERT(glBindTexture(GL_TEXTURE_2D, texture_id));
-
+        
+        // texture parameters
         ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR));
         ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR));
         ASSERT(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE));

@@ -24,7 +24,11 @@ class Shader{
         ~Shader();
         void bind();
         void unbind();
-        unsigned int getShaderId();
-        void setUniform4f(const char* name, float f1, float f2, float f3, float f4);
-        void setUniform1i(const char* name, int i1);
+        unsigned int getShaderId() const;
+        int getUniformLocation(const char* name) const;
+        void setUniform3fv(const char* name, int count, float* value) const;
+        void setUniform4f(const char* name, float f1, float f2, float f3, float f4) const;
+        void setUniform2f(const char* name, float f1, float f2) const;
+        void setUniform1f(const char* name, float f1) const;
+        void setUniform1i(const char* name, int i1) const;
 };

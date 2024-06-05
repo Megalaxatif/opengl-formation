@@ -21,10 +21,10 @@ void Shader::unbind(){
     glUseProgram(0);
 }
 
-unsigned int Shader::getShaderId(){
+unsigned int Shader::getShaderId() const {
     return shader_id;
 }
-void Shader::setUniform4f(const char* name, float f1, float f2, float f3, float f4){
+int Shader::getUniformLocation(const char* name) const{
     //check if the program id we are currently using is the same as the shader id 
     int program_id = 0;
     glGetIntegerv(GL_CURRENT_PROGRAM, &program_id);
@@ -33,20 +33,34 @@ void Shader::setUniform4f(const char* name, float f1, float f2, float f3, float 
     }
     ASSERT(int location = glGetUniformLocation(shader_id, name)); // store in <location> the adress of the u_color uniform
     if (location == -1) std::cerr << "\n" << "erreur avec l'uniform a la ligne: " << __LINE__ -1; // debugging, location = -1 if it doesn't find the uniform
+    return location;
+}
+
+void Shader::setUniform3fv(const char* name, int count, float* value) const{
+    int location = getUniformLocation(name);
+    ASSERT(glUniform3fv(location, count, value));
+}
+
+void Shader::setUniform4f(const char* name, float f1, float f2, float f3, float f4) const{
+    int location = getUniformLocation(name);
     ASSERT(glUniform4f(location, f1, f2, f3, f4)); // modify the uniform
 }
 
-void Shader::setUniform1i(const char* name, int i1){
-    //check if the program id we are currently using is the same as the shader id 
-    int program_id = 0;
-    glGetIntegerv(GL_CURRENT_PROGRAM, &program_id);
-    if (program_id != shader_id){
-        glUseProgram(shader_id); // we use this shader if it wasn't the already the case
-    }
-    ASSERT(int location = glGetUniformLocation(shader_id, name)); // store in <location> the adress of the u_color uniform
-    if (location == -1) std::cerr << "\n" << "erreur avec l'uniform a la ligne: " << __LINE__ -1 << "\n"; // debugging, location = -1 if it doesn't find the uniform
+void Shader::setUniform2f(const char* name, float f1, float f2) const {
+    int location = getUniformLocation(name);
+    ASSERT(glUniform2f(location, f1, f2)); // modify the uniform
+}
+
+void Shader::setUniform1f(const char* name, float f1) const{
+    int location = getUniformLocation(name);
+    ASSERT(glUniform1f(location, f1)); // modify the uniform
+}
+
+void Shader::setUniform1i(const char* name, int i1) const{
+    int location = getUniformLocation(name);
     ASSERT(glUniform1i(location, i1)); // modify the uniform
 }
+
 
 Shaders Shader::loadShader(std::string filepath){
     std::ifstream stream(filepath);

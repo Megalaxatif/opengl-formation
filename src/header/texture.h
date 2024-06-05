@@ -14,6 +14,7 @@ class Texture{
         ~Texture();
         void bind(unsigned int slot = 0) const;
         void unbind();
-        inline int get_width() const {return width;}
-        inline int get_heigth() const {return height;}
+        //inline int get_width() const {return width;}
+        //inline int get_heigth() const {return height;}
+        inline unsigned int getTextureId() const {return texture_id;}
 };
