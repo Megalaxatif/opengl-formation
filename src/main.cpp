@@ -28,7 +28,7 @@ int main()
     circle circle_array[CIRCLES] = { 0 };
 
     for(int i = 0; i < CIRCLES; i++){
-        circle_array[i] = circle{(float)rand()/ (float)RAND_MAX * 1.5f, (float)rand()/ (float)RAND_MAX * 1.f, (float)rand() / (float)RAND_MAX * 0.08f};
+        circle_array[i] = circle{(float)rand()/ (float)RAND_MAX * 1.5f, (float)rand()/ (float)RAND_MAX * 1.f, (float)rand() / (float)RAND_MAX * 0.2f};
     }
 
     glfwInit();
@@ -87,7 +87,6 @@ int main()
     while(!glfwWindowShouldClose(window)){
 
         renderer.clear(); // clear the window
-        //shader1.setUniform4f("u_color", r, 0.4f, 0.8f, 1.0f); // modify the uniform at each loop
         ASSERT(shader1.setUniform1f("time", time));
         renderer.draw(vertex_array, index_buffer, shader1);
 
