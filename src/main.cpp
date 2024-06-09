@@ -80,8 +80,6 @@ int main()
     ASSERT(shader1.setUniform3fv("circles", CIRCLES, &circle_array[0].x));
     ASSERT(Renderer renderer); // we create the renderer
 
-    float r = 0.0f;
-    float increment = 0.05f;
     float time = 0.0f;
 
     while(!glfwWindowShouldClose(window)){
@@ -90,9 +88,6 @@ int main()
         ASSERT(shader1.setUniform1f("time", time));
         renderer.draw(vertex_array, index_buffer, shader1);
 
-        if (r > 1.0f) increment = -0.05f;
-        else if (r < 0.0f) increment = 0.05f;
-        r += increment;
         time += 0.01;
 
         glfwSwapBuffers(window);
