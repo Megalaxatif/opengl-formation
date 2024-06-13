@@ -35,30 +35,40 @@ int Shader::getUniformLocation(const char* name) const{
     if (location == -1) std::cerr << "\n" << "erreur avec l'uniform a la ligne: " << __LINE__ -1; // debugging, location = -1 if it doesn't find the uniform
     return location;
 }
+//void Shader::setUniformMat4f(const char* name, glm::mat4& matrix) const{
+  //  int location = getUniformLocation(name);
+//    ASSERT(glUniformMatrix4fv(location, 1, GL_FALSE, &matrix[0][0]));
+  //glUseProgram(0);
+//}
 
 void Shader::setUniform3fv(const char* name, int count, float* value) const{
     int location = getUniformLocation(name);
     ASSERT(glUniform3fv(location, count, value));
+    //glUseProgram(0);
 }
 
 void Shader::setUniform4f(const char* name, float f1, float f2, float f3, float f4) const{
     int location = getUniformLocation(name);
     ASSERT(glUniform4f(location, f1, f2, f3, f4)); // modify the uniform
+    //glUseProgram(0);
 }
 
 void Shader::setUniform2f(const char* name, float f1, float f2) const {
     int location = getUniformLocation(name);
     ASSERT(glUniform2f(location, f1, f2)); // modify the uniform
+    //glUseProgram(0);
 }
 
 void Shader::setUniform1f(const char* name, float f1) const{
     int location = getUniformLocation(name);
     ASSERT(glUniform1f(location, f1)); // modify the uniform
+    //glUseProgram(0);
 }
 
 void Shader::setUniform1i(const char* name, int i1) const{
     int location = getUniformLocation(name);
     ASSERT(glUniform1i(location, i1)); // modify the uniform
+    //glUseProgram(0);
 }
 
 

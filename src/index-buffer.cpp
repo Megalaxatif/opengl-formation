@@ -7,7 +7,7 @@ IndexBuffer::IndexBuffer(const unsigned int* data, unsigned int size){
     ASSERT(glGenBuffers(1, &buffer_id));
     ASSERT(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, buffer_id));
     ASSERT(glBufferData(GL_ELEMENT_ARRAY_BUFFER, size * sizeof(unsigned int), data, GL_STATIC_DRAW));
-    ASSERT(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0)) // unbind the buffer
+    ASSERT(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0)); // unbind the buffer
 }
 
 IndexBuffer::~IndexBuffer(){

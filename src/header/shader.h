@@ -2,6 +2,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <string>
+//#include <glm/glm.hpp>
 
 struct Shaders{
     std::string vertex_shader_source;
@@ -26,6 +27,7 @@ class Shader{
         void unbind();
         unsigned int getShaderId() const;
         int getUniformLocation(const char* name) const;
+        //void setUniformMat4f(const char* name, glm::mat4& matrix) const;
         void setUniform3fv(const char* name, int count, float* value) const;
         void setUniform4f(const char* name, float f1, float f2, float f3, float f4) const;
         void setUniform2f(const char* name, float f1, float f2) const;
