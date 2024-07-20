@@ -153,24 +153,12 @@ CMakeFiles/Prog.dir/src/main.cpp.obj: \
  D:/Ethan/Projets/Code/formation-OpenGL/include/KHR/khrplatform.h \
  D:/Ethan/Projets/Code/formation-OpenGL/include/GLFW/glfw3.h \
  D:/Ethan/Projets/Code/formation-OpenGL/src/header/shader.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/header/index-buffer.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/header/vertex-array.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/header/vertex-buffer.h \
- D:/Ethan/Projets/Code/formation-OpenGL/src/header/texture.h \
- C:/MinGW/mingw64/include/c++/13.2.0/thread \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/std_thread.h \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/unique_ptr.h \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/this_thread_sleep.h \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/chrono.h \
- C:/MinGW/mingw64/include/c++/13.2.0/ratio \
- C:/MinGW/mingw64/include/c++/13.2.0/cstdint \
- C:/MinGW/mingw64/include/c++/13.2.0/limits \
- C:/MinGW/mingw64/include/c++/13.2.0/ctime \
- C:/MinGW/mingw64/include/c++/13.2.0/bits/parse_numbers.h \
- C:/MinGW/mingw64/include/c++/13.2.0/random \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/glm.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/_fixes.hpp \
  C:/MinGW/mingw64/include/c++/13.2.0/cmath \
  C:/MinGW/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/specfun.h \
+ C:/MinGW/mingw64/include/c++/13.2.0/limits \
  C:/MinGW/mingw64/include/c++/13.2.0/tr1/gamma.tcc \
  C:/MinGW/mingw64/include/c++/13.2.0/tr1/special_function_util.h \
  C:/MinGW/mingw64/include/c++/13.2.0/tr1/bessel_function.tcc \
@@ -183,6 +171,159 @@ CMakeFiles/Prog.dir/src/main.cpp.obj: \
  C:/MinGW/mingw64/include/c++/13.2.0/tr1/poly_hermite.tcc \
  C:/MinGW/mingw64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
  C:/MinGW/mingw64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/setup.hpp \
+ C:/MinGW/mingw64/include/c++/13.2.0/cassert \
+ C:/MinGW/mingw64/x86_64-w64-mingw32/include/assert.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/simd/platform.h \
+ C:/MinGW/mingw64/include/c++/13.2.0/cstdint \
+ C:/MinGW/mingw64/include/c++/13.2.0/climits \
+ C:/MinGW/mingw64/include/c++/13.2.0/cfloat \
+ C:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
+ C:/MinGW/mingw64/x86_64-w64-mingw32/include/float.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/fwd.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/qualifier.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/setup.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/vec2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_bool2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_vec2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_vec2.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/compute_vector_relational.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_bool2_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_float2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_float2_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_double2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_double2_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_int2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_int2_sized.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/scalar_int_sized.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/setup.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_uint2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_uint2_sized.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/scalar_uint_sized.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/vec3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_bool3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_vec3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_vec3.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_bool3_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_float3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_float3_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_double3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_double3_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_int3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_int3_sized.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_uint3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_uint3_sized.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/vec4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_bool4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_vec4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_vec4.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_bool4_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_float4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_float4_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_double4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_double4_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_int4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_int4_sized.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_uint4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/vector_uint4_sized.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/mat2x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double2x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat2x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat2x2.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/matrix.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/mat2x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double2x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat2x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat2x3.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double2x3_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float2x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float2x3_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/mat2x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double2x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat2x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat2x4.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double2x4_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float2x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float2x4_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/mat3x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double3x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat3x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat3x2.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double3x2_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float3x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float3x2_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/mat3x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double3x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat3x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat3x3.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double3x3_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float3x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float3x3_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/mat3x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double3x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat3x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat3x4.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double3x4_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float3x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float3x4_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/mat4x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double4x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat4x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat4x2.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double4x2_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float4x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float4x2_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/mat4x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double4x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat4x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat4x3.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double4x3_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float4x3.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float4x3_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/mat4x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double4x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat4x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_mat4x4.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double4x4_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float4x4.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float4x4_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/func_matrix.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/geometric.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/func_geometric.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/exponential.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_vec1.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_vec1.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/func_exponential.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/vector_relational.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/func_vector_relational.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/_vectorize.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/common.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/func_common.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/compute_common.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_double2x2_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float2x2.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_float2x2_precision.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/trigonometric.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/func_trigonometric.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/packing.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/func_packing.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_half.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/type_half.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/integer.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/detail/func_integer.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/header/index-buffer.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/header/vertex-array.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/header/vertex-buffer.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/header/texture.h \
+ C:/MinGW/mingw64/include/c++/13.2.0/thread \
+ C:/MinGW/mingw64/include/c++/13.2.0/bits/std_thread.h \
+ C:/MinGW/mingw64/include/c++/13.2.0/bits/unique_ptr.h \
+ C:/MinGW/mingw64/include/c++/13.2.0/bits/this_thread_sleep.h \
+ C:/MinGW/mingw64/include/c++/13.2.0/bits/chrono.h \
+ C:/MinGW/mingw64/include/c++/13.2.0/ratio \
+ C:/MinGW/mingw64/include/c++/13.2.0/ctime \
+ C:/MinGW/mingw64/include/c++/13.2.0/bits/parse_numbers.h \
+ C:/MinGW/mingw64/include/c++/13.2.0/random \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/random.h \
  C:/MinGW/mingw64/include/c++/13.2.0/vector \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/stl_uninitialized.h \
@@ -195,4 +336,24 @@ CMakeFiles/Prog.dir/src/main.cpp.obj: \
  C:/MinGW/mingw64/include/c++/13.2.0/numeric \
  C:/MinGW/mingw64/include/c++/13.2.0/bits/stl_numeric.h \
  C:/MinGW/mingw64/include/c++/13.2.0/pstl/glue_numeric_defs.h \
- C:/MinGW/mingw64/include/c++/13.2.0/pstl/execution_defs.h
+ C:/MinGW/mingw64/include/c++/13.2.0/pstl/execution_defs.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imconfig.h \
+ C:/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
+ C:/MinGW/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+ C:/MinGW/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+ C:/MinGW/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/MinGW/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_impl_glfw_gl3.h \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/gtc/matrix_transform.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_projection.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/gtc/constants.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/scalar_constants.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/scalar_constants.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/gtc/constants.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_projection.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_clip_space.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_clip_space.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_transform.hpp \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/ext/matrix_transform.inl \
+ D:/Ethan/Projets/Code/formation-OpenGL/include/glm/gtc/matrix_transform.inl

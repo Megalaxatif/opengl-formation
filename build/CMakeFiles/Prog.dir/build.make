@@ -69,71 +69,11 @@ include CMakeFiles/Prog.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Prog.dir/flags.make
 
-CMakeFiles/Prog.dir/src/main.cpp.obj: CMakeFiles/Prog.dir/flags.make
-CMakeFiles/Prog.dir/src/main.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
-CMakeFiles/Prog.dir/src/main.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp
-CMakeFiles/Prog.dir/src/main.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Prog.dir/src/main.cpp.obj"
-	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/main.cpp.obj -MF CMakeFiles/Prog.dir/src/main.cpp.obj.d -o CMakeFiles/Prog.dir/src/main.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp
-
-CMakeFiles/Prog.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/main.cpp.i"
-	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp > CMakeFiles/Prog.dir/src/main.cpp.i
-
-CMakeFiles/Prog.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/main.cpp.s"
-	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp -o CMakeFiles/Prog.dir/src/main.cpp.s
-
-CMakeFiles/Prog.dir/src/glad.c.obj: CMakeFiles/Prog.dir/flags.make
-CMakeFiles/Prog.dir/src/glad.c.obj: CMakeFiles/Prog.dir/includes_C.rsp
-CMakeFiles/Prog.dir/src/glad.c.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c
-CMakeFiles/Prog.dir/src/glad.c.obj: CMakeFiles/Prog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Prog.dir/src/glad.c.obj"
-	C:/MinGW/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/glad.c.obj -MF CMakeFiles/Prog.dir/src/glad.c.obj.d -o CMakeFiles/Prog.dir/src/glad.c.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c
-
-CMakeFiles/Prog.dir/src/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Prog.dir/src/glad.c.i"
-	C:/MinGW/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c > CMakeFiles/Prog.dir/src/glad.c.i
-
-CMakeFiles/Prog.dir/src/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Prog.dir/src/glad.c.s"
-	C:/MinGW/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c -o CMakeFiles/Prog.dir/src/glad.c.s
-
-CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: CMakeFiles/Prog.dir/flags.make
-CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
-CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp
-CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj"
-	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj -MF CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj.d -o CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp
-
-CMakeFiles/Prog.dir/src/vertex-buffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/vertex-buffer.cpp.i"
-	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp > CMakeFiles/Prog.dir/src/vertex-buffer.cpp.i
-
-CMakeFiles/Prog.dir/src/vertex-buffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/vertex-buffer.cpp.s"
-	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp -o CMakeFiles/Prog.dir/src/vertex-buffer.cpp.s
-
-CMakeFiles/Prog.dir/src/vertex-array.cpp.obj: CMakeFiles/Prog.dir/flags.make
-CMakeFiles/Prog.dir/src/vertex-array.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
-CMakeFiles/Prog.dir/src/vertex-array.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp
-CMakeFiles/Prog.dir/src/vertex-array.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Prog.dir/src/vertex-array.cpp.obj"
-	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/vertex-array.cpp.obj -MF CMakeFiles/Prog.dir/src/vertex-array.cpp.obj.d -o CMakeFiles/Prog.dir/src/vertex-array.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp
-
-CMakeFiles/Prog.dir/src/vertex-array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/vertex-array.cpp.i"
-	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp > CMakeFiles/Prog.dir/src/vertex-array.cpp.i
-
-CMakeFiles/Prog.dir/src/vertex-array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/vertex-array.cpp.s"
-	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp -o CMakeFiles/Prog.dir/src/vertex-array.cpp.s
-
 CMakeFiles/Prog.dir/src/index-buffer.cpp.obj: CMakeFiles/Prog.dir/flags.make
 CMakeFiles/Prog.dir/src/index-buffer.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
 CMakeFiles/Prog.dir/src/index-buffer.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/index-buffer.cpp
 CMakeFiles/Prog.dir/src/index-buffer.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Prog.dir/src/index-buffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Prog.dir/src/index-buffer.cpp.obj"
 	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/index-buffer.cpp.obj -MF CMakeFiles/Prog.dir/src/index-buffer.cpp.obj.d -o CMakeFiles/Prog.dir/src/index-buffer.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/index-buffer.cpp
 
 CMakeFiles/Prog.dir/src/index-buffer.cpp.i: cmake_force
@@ -144,11 +84,26 @@ CMakeFiles/Prog.dir/src/index-buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/index-buffer.cpp.s"
 	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/index-buffer.cpp -o CMakeFiles/Prog.dir/src/index-buffer.cpp.s
 
+CMakeFiles/Prog.dir/src/main.cpp.obj: CMakeFiles/Prog.dir/flags.make
+CMakeFiles/Prog.dir/src/main.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
+CMakeFiles/Prog.dir/src/main.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp
+CMakeFiles/Prog.dir/src/main.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Prog.dir/src/main.cpp.obj"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/main.cpp.obj -MF CMakeFiles/Prog.dir/src/main.cpp.obj.d -o CMakeFiles/Prog.dir/src/main.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp
+
+CMakeFiles/Prog.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/main.cpp.i"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp > CMakeFiles/Prog.dir/src/main.cpp.i
+
+CMakeFiles/Prog.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/main.cpp.s"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp -o CMakeFiles/Prog.dir/src/main.cpp.s
+
 CMakeFiles/Prog.dir/src/renderer.cpp.obj: CMakeFiles/Prog.dir/flags.make
 CMakeFiles/Prog.dir/src/renderer.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
 CMakeFiles/Prog.dir/src/renderer.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/renderer.cpp
 CMakeFiles/Prog.dir/src/renderer.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Prog.dir/src/renderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Prog.dir/src/renderer.cpp.obj"
 	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/renderer.cpp.obj -MF CMakeFiles/Prog.dir/src/renderer.cpp.obj.d -o CMakeFiles/Prog.dir/src/renderer.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/renderer.cpp
 
 CMakeFiles/Prog.dir/src/renderer.cpp.i: cmake_force
@@ -163,7 +118,7 @@ CMakeFiles/Prog.dir/src/shader.cpp.obj: CMakeFiles/Prog.dir/flags.make
 CMakeFiles/Prog.dir/src/shader.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
 CMakeFiles/Prog.dir/src/shader.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/shader.cpp
 CMakeFiles/Prog.dir/src/shader.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Prog.dir/src/shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Prog.dir/src/shader.cpp.obj"
 	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/shader.cpp.obj -MF CMakeFiles/Prog.dir/src/shader.cpp.obj.d -o CMakeFiles/Prog.dir/src/shader.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/shader.cpp
 
 CMakeFiles/Prog.dir/src/shader.cpp.i: cmake_force
@@ -178,7 +133,7 @@ CMakeFiles/Prog.dir/src/texture.cpp.obj: CMakeFiles/Prog.dir/flags.make
 CMakeFiles/Prog.dir/src/texture.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
 CMakeFiles/Prog.dir/src/texture.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/texture.cpp
 CMakeFiles/Prog.dir/src/texture.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Prog.dir/src/texture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Prog.dir/src/texture.cpp.obj"
 	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/texture.cpp.obj -MF CMakeFiles/Prog.dir/src/texture.cpp.obj.d -o CMakeFiles/Prog.dir/src/texture.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/texture.cpp
 
 CMakeFiles/Prog.dir/src/texture.cpp.i: cmake_force
@@ -189,32 +144,145 @@ CMakeFiles/Prog.dir/src/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/texture.cpp.s"
 	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/texture.cpp -o CMakeFiles/Prog.dir/src/texture.cpp.s
 
+CMakeFiles/Prog.dir/src/vertex-array.cpp.obj: CMakeFiles/Prog.dir/flags.make
+CMakeFiles/Prog.dir/src/vertex-array.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
+CMakeFiles/Prog.dir/src/vertex-array.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp
+CMakeFiles/Prog.dir/src/vertex-array.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Prog.dir/src/vertex-array.cpp.obj"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/vertex-array.cpp.obj -MF CMakeFiles/Prog.dir/src/vertex-array.cpp.obj.d -o CMakeFiles/Prog.dir/src/vertex-array.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp
+
+CMakeFiles/Prog.dir/src/vertex-array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/vertex-array.cpp.i"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp > CMakeFiles/Prog.dir/src/vertex-array.cpp.i
+
+CMakeFiles/Prog.dir/src/vertex-array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/vertex-array.cpp.s"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-array.cpp -o CMakeFiles/Prog.dir/src/vertex-array.cpp.s
+
+CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: CMakeFiles/Prog.dir/flags.make
+CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
+CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp
+CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj -MF CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj.d -o CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp
+
+CMakeFiles/Prog.dir/src/vertex-buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/vertex-buffer.cpp.i"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp > CMakeFiles/Prog.dir/src/vertex-buffer.cpp.i
+
+CMakeFiles/Prog.dir/src/vertex-buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/vertex-buffer.cpp.s"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/vertex-buffer.cpp -o CMakeFiles/Prog.dir/src/vertex-buffer.cpp.s
+
+CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj: CMakeFiles/Prog.dir/flags.make
+CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
+CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui.cpp
+CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj -MF CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj.d -o CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui.cpp
+
+CMakeFiles/Prog.dir/src/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/imgui/imgui.cpp.i"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui.cpp > CMakeFiles/Prog.dir/src/imgui/imgui.cpp.i
+
+CMakeFiles/Prog.dir/src/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/imgui/imgui.cpp.s"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui.cpp -o CMakeFiles/Prog.dir/src/imgui/imgui.cpp.s
+
+CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj: CMakeFiles/Prog.dir/flags.make
+CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
+CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_demo.cpp
+CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj -MF CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj.d -o CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_demo.cpp
+
+CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.i"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_demo.cpp > CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.i
+
+CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.s"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_demo.cpp -o CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.s
+
+CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj: CMakeFiles/Prog.dir/flags.make
+CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
+CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_draw.cpp
+CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj -MF CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj.d -o CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_draw.cpp
+
+CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.i"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_draw.cpp > CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.i
+
+CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.s"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_draw.cpp -o CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.s
+
+CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj: CMakeFiles/Prog.dir/flags.make
+CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj: CMakeFiles/Prog.dir/includes_CXX.rsp
+CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_impl_glfw_gl3.cpp
+CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj: CMakeFiles/Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj -MF CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj.d -o CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_impl_glfw_gl3.cpp
+
+CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.i"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_impl_glfw_gl3.cpp > CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.i
+
+CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.s"
+	C:/MinGW/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_impl_glfw_gl3.cpp -o CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.s
+
+CMakeFiles/Prog.dir/src/glad.c.obj: CMakeFiles/Prog.dir/flags.make
+CMakeFiles/Prog.dir/src/glad.c.obj: CMakeFiles/Prog.dir/includes_C.rsp
+CMakeFiles/Prog.dir/src/glad.c.obj: D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c
+CMakeFiles/Prog.dir/src/glad.c.obj: CMakeFiles/Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Prog.dir/src/glad.c.obj"
+	C:/MinGW/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Prog.dir/src/glad.c.obj -MF CMakeFiles/Prog.dir/src/glad.c.obj.d -o CMakeFiles/Prog.dir/src/glad.c.obj -c D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c
+
+CMakeFiles/Prog.dir/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Prog.dir/src/glad.c.i"
+	C:/MinGW/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c > CMakeFiles/Prog.dir/src/glad.c.i
+
+CMakeFiles/Prog.dir/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Prog.dir/src/glad.c.s"
+	C:/MinGW/mingw64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c -o CMakeFiles/Prog.dir/src/glad.c.s
+
 # Object files for target Prog
 Prog_OBJECTS = \
-"CMakeFiles/Prog.dir/src/main.cpp.obj" \
-"CMakeFiles/Prog.dir/src/glad.c.obj" \
-"CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj" \
-"CMakeFiles/Prog.dir/src/vertex-array.cpp.obj" \
 "CMakeFiles/Prog.dir/src/index-buffer.cpp.obj" \
+"CMakeFiles/Prog.dir/src/main.cpp.obj" \
 "CMakeFiles/Prog.dir/src/renderer.cpp.obj" \
 "CMakeFiles/Prog.dir/src/shader.cpp.obj" \
-"CMakeFiles/Prog.dir/src/texture.cpp.obj"
+"CMakeFiles/Prog.dir/src/texture.cpp.obj" \
+"CMakeFiles/Prog.dir/src/vertex-array.cpp.obj" \
+"CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj" \
+"CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj" \
+"CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj" \
+"CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj" \
+"CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj" \
+"CMakeFiles/Prog.dir/src/glad.c.obj"
 
 # External object files for target Prog
 Prog_EXTERNAL_OBJECTS =
 
-Prog.exe: CMakeFiles/Prog.dir/src/main.cpp.obj
-Prog.exe: CMakeFiles/Prog.dir/src/glad.c.obj
-Prog.exe: CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj
-Prog.exe: CMakeFiles/Prog.dir/src/vertex-array.cpp.obj
 Prog.exe: CMakeFiles/Prog.dir/src/index-buffer.cpp.obj
+Prog.exe: CMakeFiles/Prog.dir/src/main.cpp.obj
 Prog.exe: CMakeFiles/Prog.dir/src/renderer.cpp.obj
 Prog.exe: CMakeFiles/Prog.dir/src/shader.cpp.obj
 Prog.exe: CMakeFiles/Prog.dir/src/texture.cpp.obj
+Prog.exe: CMakeFiles/Prog.dir/src/vertex-array.cpp.obj
+Prog.exe: CMakeFiles/Prog.dir/src/vertex-buffer.cpp.obj
+Prog.exe: CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj
+Prog.exe: CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj
+Prog.exe: CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj
+Prog.exe: CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj
+Prog.exe: CMakeFiles/Prog.dir/src/glad.c.obj
 Prog.exe: CMakeFiles/Prog.dir/build.make
 Prog.exe: CMakeFiles/Prog.dir/linkLibs.rsp
 Prog.exe: CMakeFiles/Prog.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Prog.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/Ethan/Projets/Code/formation-OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Prog.exe"
 	C:/MinGW/mingw64/bin/cmake.exe -E rm -f CMakeFiles/Prog.dir/objects.a
 	C:/MinGW/mingw64/bin/ar.exe qc CMakeFiles/Prog.dir/objects.a @CMakeFiles/Prog.dir/objects1.rsp
 	C:/MinGW/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/Prog.dir/objects.a -Wl,--no-whole-archive -o Prog.exe -Wl,--out-implib,libProg.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Prog.dir/linkLibs.rsp

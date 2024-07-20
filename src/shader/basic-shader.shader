@@ -1,17 +1,16 @@
 #shader vertex
 #version 460 core
 
-//uniform mat4 u_MVP;
-
 layout(location = 0) in vec4 position;
 layout(location = 1) in vec2 texture_coord;
 
+uniform mat4 u_mvp;
+out vec2 v_texture_coord;
+
 void main(){
-   gl_Position = position;
+   gl_Position = position * u_mvp;
    v_texture_coord = texture_coord;
 };
-
-out vec2 v_texture_coord;
 
 #shader fragment
 #version 330 core
@@ -37,7 +36,6 @@ vec3 palette(float t){
 }
 
 void main(){
-   
    //vec2 uv = gl_FragCoord.xy / resolution;
    //vec2 uv_animation = uv *2.0 -1.0;
    //uv.x *= resolution.x/resolution.y;

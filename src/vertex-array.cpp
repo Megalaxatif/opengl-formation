@@ -7,17 +7,6 @@ VertexArray::VertexArray(unsigned int vertex_buffer)
 {
     // create the vertex array
     ASSERT(glGenVertexArrays(1, &vertex_array_id));
-    //ASSERT(glBindVertexArray(vertex_array_id));
-    //ASSERT(glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer)); // binding the vertex buffer so we can use it in the next line of code
-
-    //ASSERT(glVertexAttribPointer(0, vertex_size, GL_FLOAT, GL_FALSE, vertex_stride*sizeof(float), 0));
-    //ASSERT(glEnableVertexAttribArray(0));
-    //texture coordinates just for test
-    //ASSERT(glVertexAttribPointer(1, vertex_size, GL_FLOAT, GL_FALSE, vertex_stride*sizeof(float), (void*)(2*sizeof(float))));
-    //ASSERT(glEnableVertexAttribArray(1));
-
-    //ASSERT(glBindBuffer(GL_ARRAY_BUFFER, 0)); // unbind the vertex buffer
-    //ASSERT(glBindVertexArray(0)); // unbind vertex array
 }
 
 VertexArray::~VertexArray(){

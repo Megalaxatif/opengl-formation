@@ -9,6 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Ethan/Projets/Code/formation-OpenGL/src/glad.c" "CMakeFiles/Prog.dir/src/glad.c.obj" "gcc" "CMakeFiles/Prog.dir/src/glad.c.obj.d"
+  "D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui.cpp" "CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj.d"
+  "D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_demo.cpp" "CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj.d"
+  "D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_draw.cpp" "CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj.d"
+  "D:/Ethan/Projets/Code/formation-OpenGL/src/imgui/imgui_impl_glfw_gl3.cpp" "CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj.d"
   "D:/Ethan/Projets/Code/formation-OpenGL/src/index-buffer.cpp" "CMakeFiles/Prog.dir/src/index-buffer.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/index-buffer.cpp.obj.d"
   "D:/Ethan/Projets/Code/formation-OpenGL/src/main.cpp" "CMakeFiles/Prog.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/main.cpp.obj.d"
   "D:/Ethan/Projets/Code/formation-OpenGL/src/renderer.cpp" "CMakeFiles/Prog.dir/src/renderer.cpp.obj" "gcc" "CMakeFiles/Prog.dir/src/renderer.cpp.obj.d"

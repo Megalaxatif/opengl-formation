@@ -2,9 +2,15 @@ cmake_minimum_required(VERSION 3.27)
 
 set(EXEC_NAME "Prog")
 
+file(GLOB SRC_FILES "src/*.cpp")
+file(GLOB IMGUI_FILES "src/imgui/*.cpp")
+file(GLOB GLAD_FILE "src/glad.c")
+
+
+
 project(formation-openGL)
 
-add_executable(${EXEC_NAME} src/main.cpp src/glad.c src/vertex-buffer.cpp src/vertex-array.cpp src/index-buffer.cpp src/renderer.cpp src/shader.cpp src/texture.cpp)
+add_executable(${EXEC_NAME} ${SRC_FILES} ${IMGUI_FILES} ${GLAD_FILE})
 
 target_include_directories(${EXEC_NAME} PUBLIC include src/header)
 

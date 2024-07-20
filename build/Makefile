@@ -153,6 +153,102 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
+src/imgui/imgui.obj: src/imgui/imgui.cpp.obj
+.PHONY : src/imgui/imgui.obj
+
+# target to build an object file
+src/imgui/imgui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui.cpp.obj
+.PHONY : src/imgui/imgui.cpp.obj
+
+src/imgui/imgui.i: src/imgui/imgui.cpp.i
+.PHONY : src/imgui/imgui.i
+
+# target to preprocess a source file
+src/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui.cpp.i
+.PHONY : src/imgui/imgui.cpp.i
+
+src/imgui/imgui.s: src/imgui/imgui.cpp.s
+.PHONY : src/imgui/imgui.s
+
+# target to generate assembly for a file
+src/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui.cpp.s
+.PHONY : src/imgui/imgui.cpp.s
+
+src/imgui/imgui_demo.obj: src/imgui/imgui_demo.cpp.obj
+.PHONY : src/imgui/imgui_demo.obj
+
+# target to build an object file
+src/imgui/imgui_demo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.obj
+.PHONY : src/imgui/imgui_demo.cpp.obj
+
+src/imgui/imgui_demo.i: src/imgui/imgui_demo.cpp.i
+.PHONY : src/imgui/imgui_demo.i
+
+# target to preprocess a source file
+src/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.i
+.PHONY : src/imgui/imgui_demo.cpp.i
+
+src/imgui/imgui_demo.s: src/imgui/imgui_demo.cpp.s
+.PHONY : src/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+src/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui_demo.cpp.s
+.PHONY : src/imgui/imgui_demo.cpp.s
+
+src/imgui/imgui_draw.obj: src/imgui/imgui_draw.cpp.obj
+.PHONY : src/imgui/imgui_draw.obj
+
+# target to build an object file
+src/imgui/imgui_draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.obj
+.PHONY : src/imgui/imgui_draw.cpp.obj
+
+src/imgui/imgui_draw.i: src/imgui/imgui_draw.cpp.i
+.PHONY : src/imgui/imgui_draw.i
+
+# target to preprocess a source file
+src/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.i
+.PHONY : src/imgui/imgui_draw.cpp.i
+
+src/imgui/imgui_draw.s: src/imgui/imgui_draw.cpp.s
+.PHONY : src/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+src/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui_draw.cpp.s
+.PHONY : src/imgui/imgui_draw.cpp.s
+
+src/imgui/imgui_impl_glfw_gl3.obj: src/imgui/imgui_impl_glfw_gl3.cpp.obj
+.PHONY : src/imgui/imgui_impl_glfw_gl3.obj
+
+# target to build an object file
+src/imgui/imgui_impl_glfw_gl3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.obj
+.PHONY : src/imgui/imgui_impl_glfw_gl3.cpp.obj
+
+src/imgui/imgui_impl_glfw_gl3.i: src/imgui/imgui_impl_glfw_gl3.cpp.i
+.PHONY : src/imgui/imgui_impl_glfw_gl3.i
+
+# target to preprocess a source file
+src/imgui/imgui_impl_glfw_gl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.i
+.PHONY : src/imgui/imgui_impl_glfw_gl3.cpp.i
+
+src/imgui/imgui_impl_glfw_gl3.s: src/imgui/imgui_impl_glfw_gl3.cpp.s
+.PHONY : src/imgui/imgui_impl_glfw_gl3.s
+
+# target to generate assembly for a file
+src/imgui/imgui_impl_glfw_gl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/src/imgui/imgui_impl_glfw_gl3.cpp.s
+.PHONY : src/imgui/imgui_impl_glfw_gl3.cpp.s
+
 src/index-buffer.obj: src/index-buffer.cpp.obj
 .PHONY : src/index-buffer.obj
 
@@ -333,6 +429,18 @@ help:
 	@echo "... src/glad.obj"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
+	@echo "... src/imgui/imgui.obj"
+	@echo "... src/imgui/imgui.i"
+	@echo "... src/imgui/imgui.s"
+	@echo "... src/imgui/imgui_demo.obj"
+	@echo "... src/imgui/imgui_demo.i"
+	@echo "... src/imgui/imgui_demo.s"
+	@echo "... src/imgui/imgui_draw.obj"
+	@echo "... src/imgui/imgui_draw.i"
+	@echo "... src/imgui/imgui_draw.s"
+	@echo "... src/imgui/imgui_impl_glfw_gl3.obj"
+	@echo "... src/imgui/imgui_impl_glfw_gl3.i"
+	@echo "... src/imgui/imgui_impl_glfw_gl3.s"
 	@echo "... src/index-buffer.obj"
 	@echo "... src/index-buffer.i"
 	@echo "... src/index-buffer.s"
